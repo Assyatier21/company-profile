@@ -1,5 +1,8 @@
 <footer id="footer">
-    @include('layouts.footer.newsletter')
-    @include('layouts.footer.top')
-    @include('layouts.footer.copyright')
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            @include('layouts.footer.copyright')
+            @include('layouts.footer.menu')
+        </div>
+    </div>
 </footer>
