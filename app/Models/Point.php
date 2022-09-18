@@ -11,8 +11,8 @@ class Point extends Model
     protected $table = "point";
 
 
-    public function About()
+    public function about()
     {
-        return $this->belongsTo(About::class, 'id', 'about_id');
+        return $this->belongsTo(About::class, 'about_id', 'id');
     }
 }

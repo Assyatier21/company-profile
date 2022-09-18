@@ -1,3 +1,3 @@
 <div class="section-title" data-aos="fade-up">
-    <h2>About Us</h2>
+    <h2>Tentang Kami</h2>
 </div>

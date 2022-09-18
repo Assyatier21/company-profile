@@ -11,8 +11,8 @@ class About extends Model
     use HasFactory;
     protected $table = "about";
 
-    public function Point()
+    public function point()
     {
-        return $this->hasMany(Point::class, 'about_id', 'id')->whereFlag(1);
+        return $this->hasMany(Point::class);
     }
 }

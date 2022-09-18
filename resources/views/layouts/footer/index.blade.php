@@ -1,3 +1,8 @@
+@php
+$name = "XL - Axiata";
+$contact = App\Models\Contact::first();
+@endphp
+
 <footer id="footer">
     <div class="container">
         <div class="row d-flex align-items-center">
